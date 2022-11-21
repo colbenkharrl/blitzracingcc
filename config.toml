@@ -1,0 +1,101 @@
+## Basic Configuration
+
+baseurl = "http://colbenkharrl.github.io/" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Matt Kharrl"
+title = "Blitz Racing"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Blitz Racing ⚡️"
+# intro = "USA Cycling Club"
+description = "Blood, sweat, respect. The first two you give, the last one you earn."
+authorimage = "blitz_logo.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "blitz,cycling,racing,team,cc"
+
+## About Us
+[params.about_us]
+about_us_content = "Blitz Racing is a USA Cycling registered and sanctioned club comprising racers and riding enthusiasts dedicated to racing and cycling in all its forms. We ride and race in road, cyclocross, and mountain bike events whenever we can. Blitz Racing was founded in San Antonio, Texas, but has grown to include teams in Arizona, Colorado, and Florida. The club eats, sleeps, and breathes bike riding!"
+
+## Social Accounts
+[params.social]
+instagram = "blitzracingcc"
+instagram_embed = "blitzracingcc"
+facebook = "blitzracingcc"
+strava_club = "blitzracing"
+facebook_embed = "blitzracingcc"
+# github = "<username>"
+# linkedin = "<username>"
+# twitter = "<username>"
+# google = "<username>"
+# stackoverflow = "<username>"
+# email = "you@example.com"
+
+## Sponsors
+[[params.sponsors]]
+    name = "roka"
+    img = "/img/roka_logo.svg"
+    url = "https://www.roka.com/"
+[[params.sponsors]]
+    name = "restore sonterra"
+    img = "/img/restore_logo.png"
+    url = "https://www.restore.com/locations/tx-san-antonio-sonterra-tx008"
+[[params.sponsors]]
+    name = "tequila penasco"
+    img = "/img/tequila_penasco_logo.png"
+    url = "https://www.tequilapenasco.com/"
+[[params.sponsors]]
+    name = "cyclebar stone oak"
+    img = "/img/cyclebar_logo.png"
+    url = "https://www.cyclebar.com/location/stone-oak"
+[[params.sponsors]]
+    name = "teka molino"
+    img = "/img/teka_molino_logo.png"
+    url = "https://www.facebook.com/TekaMolino/"
+[[params.sponsors]]
+    name = "pedal haus brewery"
+    img = "/img/pedal_haus_logo.png"
+    url = "https://www.pedalhausbrewery.com/"
+
+## Extras
+[params.extra]
+copyright = "© 2022. Blitz Racing CC. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = false
+hightlightjs = false
+displayrssicon = false
+
+## Main Menu
+# [[menu.main]]
+#     name = "blog"
+#     weight = 100
+#     identifier = "blog"
+#     url = "/blog/"
+# [[menu.main]]
+#     name = "about"
+#     identifier = "about"
+#     weight = 200
+#     url = "/about/"
+# [[menu.main]]
+#     name = "coderag"
+#     identifier = "coderag"
+#     weight = 300
+#     url = "/coderag/"
