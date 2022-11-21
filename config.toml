@@ -21,7 +21,7 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Blitz Racing Cycling Club"
+author = "Blitz Racing Club"
 # intro = "USA Cycling Club"
 description = "Blood, sweat, respect. The first two you give, the last one you earn."
 authorimage = "blitz_logo.png"
