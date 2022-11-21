@@ -10,7 +10,7 @@ layoutdir = "layouts"
 publishdir = "docs"
 
 author = "Matt Kharrl"
-title = "Blitz Racing"
+title = "Blitz Racing Club"
 
 theme = "hugo-goa"
 
