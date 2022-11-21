@@ -115,6 +115,19 @@ div.content {
 .headshot {
   width: 200px;
   height: 200px;
+  animation-name: loader;
+  animation-duration: 0.25s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+@keyframes loader {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 720deg;
+  }
 }
 .info {
   margin-top: 10px;
@@ -195,6 +208,9 @@ h6.meta {
   color: #0f1c32;
   font-size: 32px;
 }
+.social a:hover {
+  color: #f27960;
+}
 .title {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
@@ -246,6 +262,9 @@ section.sponsors > .sponsor-list img {
   width: 150px;
   max-width: 100%;
   margin: 20px;
+}
+section.sponsors > .sponsor-list img:hover {
+  opacity: 0.6;
 }
 .home-section {
   margin-top: 60px;

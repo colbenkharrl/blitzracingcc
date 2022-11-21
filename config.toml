@@ -21,10 +21,10 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Blitz Racing Club"
+author = "Blitz Racing Cycling Club"
 # intro = "USA Cycling Club"
 description = "Blood, sweat, respect. The first two you give, the last one you earn."
-authorimage = "blitz_logo.jpg"
+authorimage = "blitz_logo.png"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
@@ -34,7 +34,7 @@ keywords = "blitz,cycling,racing,team,cc"
 
 ## About Us
 [params.about_us]
-about_us_content = "Blitz Racing is a USA Cycling registered and sanctioned club comprising racers and riding enthusiasts dedicated to racing and cycling in all its forms. We ride and race in road, cyclocross, and mountain bike events whenever we can. Blitz Racing was founded in San Antonio, Texas, but has grown to include teams in Arizona, Colorado, and Florida. The club eats, sleeps, and breathes bike riding!"
+about_us_content = "Blitz Racing is a USA Cycling registered and sanctioned club comprising racers and riding enthusiasts dedicated to cycling in all its forms. We ride and race in road, cyclocross, and mountain bike events whenever we can. Blitz Racing was founded in San Antonio, Texas, but has grown to include athletes across the US. The club eats, sleeps, and breathes bike riding!"
 
 ## Social Accounts
 [params.social]
@@ -56,6 +56,14 @@ facebook_embed = "blitzracingcc"
     img = "/img/roka_logo.svg"
     url = "https://www.roka.com/"
 [[params.sponsors]]
+    name = "pedal haus brewery"
+    img = "/img/pedal_haus_logo.png"
+    url = "https://www.pedalhausbrewery.com/"
+[[params.sponsors]]
+    name = "cyclebar stone oak"
+    img = "/img/cyclebar_logo.png"
+    url = "https://www.cyclebar.com/location/stone-oak"
+[[params.sponsors]]
     name = "restore sonterra"
     img = "/img/restore_logo.png"
     url = "https://www.restore.com/locations/tx-san-antonio-sonterra-tx008"
@@ -64,17 +72,25 @@ facebook_embed = "blitzracingcc"
     img = "/img/tequila_penasco_logo.png"
     url = "https://www.tequilapenasco.com/"
 [[params.sponsors]]
-    name = "cyclebar stone oak"
-    img = "/img/cyclebar_logo.png"
-    url = "https://www.cyclebar.com/location/stone-oak"
+    name = "north park lexus at dominion"
+    img = "/img/lexus_logo.png"
+    url = "https://www.northparklexusatdominion.com/"
+[[params.sponsors]]
+    name = "vermeer mountain west"
+    img = "/img/vermeer_logo.png"
+    url = "https://vermeermountainwest.com/"
+[[params.sponsors]]
+    name = "the wash tub"
+    img = "/img/wash_tub_logo.png"
+    url = "https://washtub.com/"
 [[params.sponsors]]
     name = "teka molino"
     img = "/img/teka_molino_logo.png"
     url = "https://www.facebook.com/TekaMolino/"
 [[params.sponsors]]
-    name = "pedal haus brewery"
-    img = "/img/pedal_haus_logo.png"
-    url = "https://www.pedalhausbrewery.com/"
+    name = "mathew gordon MD DDS"
+    img = "/img/mathew_gordon_logo.png"
+    url = "https://www.lonestaroms.com/mathew-c-gordon"
 
 ## Extras
 [params.extra]
