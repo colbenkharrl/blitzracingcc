@@ -98,20 +98,12 @@ copyright = "© 2022. Blitz Racing CC. [Some Rights Reserved](http://creativecom
 poweredby = false
 hightlightjs = false
 displayrssicon = false
+socialmarkup = true
+toc = true
 
 ## Main Menu
-# [[menu.main]]
-#     name = "blog"
-#     weight = 100
-#     identifier = "blog"
-#     url = "/blog/"
-# [[menu.main]]
-#     name = "about"
-#     identifier = "about"
-#     weight = 200
-#     url = "/about/"
-# [[menu.main]]
-#     name = "coderag"
-#     identifier = "coderag"
-#     weight = 300
-#     url = "/coderag/"
+[[menu.main]]
+    name = "Rides"
+    identifier = "rides"
+    weight = 300
+    url = "/rides/"

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blitz Racing Club</title>
-    <link>https://blitzracingcc.com/</link>
-    <description>Recent content on Blitz Racing Club</description>
+    <title>Rides on Blitz Racing Club</title>
+    <link>https://blitzracingcc.com/rides/</link>
+    <description>Recent content in Rides on Blitz Racing Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 29 Nov 2022 08:05:00 -0600</lastBuildDate><atom:link href="https://blitzracingcc.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 08:05:00 -0600</lastBuildDate><atom:link href="https://blitzracingcc.com/rides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Three Little Humps</title>
       <link>https://blitzracingcc.com/rides/three-little-humps/</link>
@@ -35,33 +35,6 @@ Event Link Facebook Link
 Description This is the infamous canal ride from Chandler to Peoria.
 We will tour a series of canals around town. Sag stops at gas stations &amp;amp; maybe a taco stand or two.
 If you can&amp;rsquo;t make the full ride, plan to jump in with us for part of the ride.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://blitzracingcc.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blitzracingcc.com/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://blitzracingcc.com/blog/first/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blitzracingcc.com/blog/first/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://blitzracingcc.com/blog/second/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blitzracingcc.com/blog/second/</guid>
-      <description></description>
     </item>
     
   </channel>

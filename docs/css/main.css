@@ -270,3 +270,21 @@ section.sponsors > .sponsor-list img:hover {
 .home-section {
   margin-top: 60px;
 }
+#content-pane h1,
+#content-pane h2,
+#content-pane h3,
+#content-pane h4,
+#content-pane h5,
+#content-pane h6 {
+  margin: 20px 0;
+}
+
+#content-pane h1 {
+  font-size: 30px;
+}
+#content-pane h2 {
+  font-size: 24px;
+}
+#content-pane h3 {
+  font-size: 20px;
+}

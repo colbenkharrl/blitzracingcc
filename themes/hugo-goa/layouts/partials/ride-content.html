@@ -5,15 +5,16 @@
   {{ if ne .Params.showpagemeta false }}
   <div class="col-md-12">
     <h6 class="text-left meta">
-       {{ if not .Date.IsZero }} PUBLISHED ON {{ .Date.Format .Site.Params.dateformat | upper }} {{end}}
-       / {{ math.Round (div (countwords .Content) 220.0) }} MIN READ
+      {{ if not .Date.IsZero }} PUBLISHED ON {{ .Date.Format .Site.Params.dateformat | upper }} {{end}}
+      / {{ math.Round (div (countwords .Content) 220.0) }} MIN READ
       {{ if isset .Params "categories" }}
       {{ $total := len .Params.categories }}
       {{ if gt $total 0 }}
       —
       {{ $total := sub $total 1 }}
       {{ range $i, $cat := sort $.Params.categories }}
-      <a class="meta" href="{{ "/categories/" | relURL }}{{ $cat | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }}, {{ end }}
+      <a class="meta" href="{{ "/categories/" | relURL }}{{ $cat | urlize }}">{{ $cat | upper }}</a>
+      {{ if lt $i $total }}, {{ end }}
       {{ end }}
       {{ end }}
       {{ end }}
@@ -25,6 +26,11 @@
   <div class="col-md-12 text-left content">
     {{ if and ( ne .Params.toc false) (gt .WordCount 300 ) }}
     {{ .TableOfContents }}
+    {{ end }}
+    {{ if isset .Params "strava_route_id" }}
+    <h1 id="route-embed">Strava Route</h1>
+    <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="{{ .Params.strava_route_id }}" data-units="imperial"></div>
+    <script src="https://strava-embeds.com/embed.js"></script>
     {{ end }}
     {{ .Content }}
   </div>
@@ -39,7 +45,8 @@
       TAGS:
       {{ $subtotal := sub $total 1 }}
       {{ range $i, $tag := sort $.Params.tags }}
-      <a class="meta" href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{ $tag | upper }}</a>{{ if lt $i $subtotal }}, {{ end }}
+      <a class="meta" href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{ $tag | upper }}</a>
+      {{ if lt $i $subtotal }}, {{ end }}
       {{ end }}
       {{ end }}
       {{ end }}
