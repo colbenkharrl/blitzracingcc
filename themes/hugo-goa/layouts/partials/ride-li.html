@@ -4,7 +4,7 @@
     <li class="list-entry">
       <a class="list-entry-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
       <p class="meta">
-        {{ if isset .Params "ride_date" }} {{ time.Format .Site.Params.dateformat .Params.ride_date }} {{end}}
+        PUBLISHED ON {{ if not .Date.IsZero }} {{ .Date.Format .Site.Params.dateformat | upper }} {{end}}
         <span class="category">
         {{ if isset .Params "categories" }}
         {{ $total := len .Params.categories }}
@@ -19,7 +19,7 @@
         </span>
       </p>
       <p class="excerpt">
-      {{ .Description }}
+      {{ if isset .Params "ride_date" }} <strong>{{ time.Format .Site.Params.dateformat .Params.ride_date }}</strong> {{end}} - {{ .Description }}
       </p>
     </li>
     {{ end }}
